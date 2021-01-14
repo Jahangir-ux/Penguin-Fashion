@@ -52,11 +52,9 @@ h3 {
 }
 .img-sizing {
   padding: 20px 28px;
-  width: 100%;
-  object-fit: cover;
 }
 .photo-size {
   width: 100%;
-  object-fit: cover;
-  overflow: hidden;
+  height: 300px;
+  object-fit: contain;
 }
