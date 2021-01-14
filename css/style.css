@@ -1,12 +1,62 @@
-.img-size {
-  width: 270px;
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue", cursive;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+h1 {
+  font-size: 5.5rem;
+}
+h2 {
+  font-size: 3rem;
+  color: #363958;
+}
+h3 {
+  color: #fa804c;
+}
+.nike-react {
+  color: #fa804c;
+}
+.infinity-run {
+  color: #363958;
+}
+.button-size {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
 }
 .background-color {
   background-color: #fff9f4;
+  /* background-color: #868e96; */
 }
 .container-fluid {
   padding: 1% 8%;
 }
 .title-img {
   width: 80%;
+}
+.panguin-card {
+  border: 0;
+  background-color: #ffffff;
+}
+.panguin-card-second {
+  border: 0;
+}
+.img-background {
+  background-color: #f1f1f1;
+}
+.panguin-card-footer {
+  border: 0;
+  background-color: #ffffff;
+}
+.img-sizing {
+  padding: 20px 28px;
+  width: 100%;
+  object-fit: cover;
+}
+.photo-size {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }

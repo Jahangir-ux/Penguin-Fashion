@@ -11,6 +11,19 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <!-- ICON -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -23,7 +36,7 @@
             <img
               src="Logo, Icon/Logo.png"
               alt=""
-              width="270"
+              width="265"
               class="d-inline-block align-top"
             />
           </a>
@@ -58,76 +71,181 @@
       </nav>
       <!-- section -->
       <section class="mt-3">
-        <div class="row align-items-center flex-md-row flex-sm-column-reverse">
+        <div class="row align-items-center flex-md-row flex-sm-wrap-reverse">
           <!-- justify-content-center -->
           <div class="col-md-7">
             <!-- style="width: 430px" -->
             <img class="title-img" src="Photos/Group 33092.png" alt="" />
           </div>
           <div class="col-md-5">
-            <h1>Nike React</h1>
-            <h1>Infinity Run 2</h1>
+            <h1 class="nike-react">Nike React</h1>
+            <h1 class="infinity-run">Infinity Run 2</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
-            <button class="btn btn-warning">Buy Now</button>
+            <button class="btn btn-primary button-size rounded-3">
+              <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
           </div>
         </div>
       </section>
     </header>
     <!-- Main -->
-    <main>
+    <main class="container">
       <!-- casual shoes -->
-      <section class="container mt-5">
+      <section class="mt-5">
+        <h2>CASUAL SHOES</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <div class="card h-100">
-              <img src="Photos/image 5.png" class="card-img-top" alt="..." />
+            <div class="card panguin-card shadow h-100">
+              <div class="img-sizing">
+                <img
+                  src="Photos/image 5.png"
+                  class="card-img-top rounded photo-size img-background"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Nike Shoe</h5>
+                <h4 class="card-title">Nike Shoe</h4>
                 <p class="card-text">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry
                 </p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-footer d-flex panguin-card-footer">
+                <h3 class="justify-content-start">$230</h3>
+                <button class="btn btn-primary p-3 rounded-3 ms-auto">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
-              <img
-                src="Photos/Daco_1703273 1.png"
-                class="card-img-top"
-                alt="..."
-              />
+            <div class="card panguin-card shadow h-100">
+              <div class="img-sizing">
+                <img
+                  src="Photos/Daco_1703273 1.png"
+                  class="card-img-top photo-size rounded img-background"
+                  alt="..."
+                />
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Sneakers Skate Shoe</h5>
+                <h4 class="card-title">Sneakers Skate Shoe</h4>
                 <p class="card-text">
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry..
+                  typesetting industry
                 </p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-footer d-flex panguin-card-footer">
+                <h3 class="justify-content-start">$230</h3>
+                <button class="btn btn-primary p-3 rounded-3 ms-auto">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card h-100">
-              <img src="Photos/pngegg 1.png" class="card-img-top" alt="..." />
+            <div class="card panguin-card shadow h-100">
+              <div class="img-sizing">
+                <img
+                  src="Photos/pngegg 1.png"
+                  class="card-img-top rounded photo-size img-background"
+                  alt="..."
+                />
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Sneakers Basketball shoe</h5>
+                <h4 class="card-title">Sneakers Basketball shoe</h4>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry
+                </p>
+              </div>
+              <div class="card-footer d-flex panguin-card-footer">
+                <h3 class="justify-content-start">$230</h3>
+                <button class="btn btn-primary p-3 rounded-3 ms-auto">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Formal shoes section -->
+      <section class="mt-5">
+        <h2>Formal shoes</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card panguin-card rounded shadow h-100">
+              <div>
+                <img
+                  src="Photos/Mask Group.png"
+                  class="card-img-top"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Prestige High-Cut Leather</h4>
                 <p class="card-text">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
               </div>
-              <div class="card-footer d-flex">
+              <div class="card-footer d-flex panguin-card-footer">
                 <h3 class="justify-content-start">$230</h3>
-                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-primary p-3 rounded-3 ms-auto">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card panguin-card shadow h-100">
+              <div class="img-sizing">
+                <img
+                  src="Photos/Rectangle 38.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Slip-On Formal Shoe</h4>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="card-footer d-flex panguin-card-footer">
+                <h3 class="justify-content-start">$230</h3>
+                <button class="btn btn-primary p-3 rounded-3 ms-auto">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card panguin-card shadow h-100">
+              <div class="img-sizing">
+                <img
+                  src="Photos/Rectangle 39.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Sneakers Basketball shoe</h4>
+                <p class="card-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry
+                </p>
+              </div>
+              <div class="card-footer d-flex panguin-card-footer">
+                <h3 class="justify-content-start">$230</h3>
+                <button class="btn btn-primary p-3 rounded-3 ms-auto">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button>
               </div>
             </div>
           </div>
