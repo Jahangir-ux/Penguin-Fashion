@@ -28,7 +28,6 @@ h3 {
 }
 .background-color {
   background-color: #fff9f4;
-  /* background-color: #868e96; */
 }
 .container-fluid {
   padding: 1% 8%;
@@ -58,9 +57,9 @@ h3 {
   height: 300px;
   object-fit: contain;
 }
-.hello {
+/* .hello {
   width: 45%;
-}
+} */
 .last-section {
   height: 40%;
 }
@@ -80,4 +79,8 @@ h3 {
 }
 .icon:hover {
   color: #ff4c68;
+}
+
+.border {
+  border: 1px solid red;
 }
