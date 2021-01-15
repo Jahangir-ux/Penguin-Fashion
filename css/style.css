@@ -58,3 +58,26 @@ h3 {
   height: 300px;
   object-fit: contain;
 }
+.hello {
+  width: 45%;
+}
+.last-section {
+  height: 40%;
+}
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
